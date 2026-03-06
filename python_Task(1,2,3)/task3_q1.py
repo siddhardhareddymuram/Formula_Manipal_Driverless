@@ -18,7 +18,7 @@ for i in range(1,n):
     key=dist[i]
     keyx=x[i]
     keyy=y[i]
-    j=i-1 -
+    j=i-1 
     while j>=0 and key<dist[j]:
         dist[j+1]=dist[j]
         x[j+1]=x[j]
